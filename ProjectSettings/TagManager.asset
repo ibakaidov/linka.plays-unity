@@ -15,15 +15,7 @@ TagManager:
   - game2 confetti
   - game2 rainbow
   - effect
-  -
-  -
-  -
-  - Colos
-  - Heart
-  -
-  -
-  -
-  -
+  - EyeButton
   - 
   - 
   - 
@@ -43,9 +35,8 @@ TagManager:
   - 
   - 
   - 
-  -
-  -
-  -
+  - 
+  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0

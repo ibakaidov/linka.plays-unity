@@ -31,6 +31,7 @@ namespace Shell {
 	[System.Serializable]
 	public class GameWindow : Window
 	{
+		private int index;
 
         [SerializeField] private string title;
         [SerializeField] private int type;
@@ -45,6 +46,7 @@ namespace Shell {
         public Sprite Icon { get => sprite; }
 		public AudioClip Instruction { get => instruction; }
 		public int SceneId { get => sceneId; }
+		public int Index { get => index; set => index = value; }
     }
     public class MainMenu : MonoBehaviour {
 		[SerializeField] private bool startFromMainMenu = true;
@@ -80,6 +82,7 @@ namespace Shell {
 			for ( int i = 0; i < gameWindows.Length; i++ )
 			{
 				var gb = GameObject.Instantiate(GameButton);
+				gameWindows[i].Index = i+1;
 				gb.GetComponent<MenuGameButtonController>().game = gameWindows[i];
 				gb.GetComponent<RectTransform>().SetParent(Menu);
 				gb.GetComponent<RectTransform>().localScale = Vector3.one;

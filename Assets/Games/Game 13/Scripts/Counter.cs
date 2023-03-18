@@ -19,7 +19,7 @@ public class Counter : MonoBehaviour
             Debug.Log("End");
 
             EndCount.Invoke();
-            Destroy(this);
+            //Destroy(this);
         }
     }
 }

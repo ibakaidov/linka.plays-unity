@@ -90,14 +90,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Animales:
-  - {fileID: 21300000, guid: e24ff731214614242bf2adcb91424d37, type: 3}
-  - {fileID: 21300000, guid: e89f226e183a2b9439a7c7bafe2ddc91, type: 3}
-  - {fileID: 21300000, guid: 9aa0fd9256dc23f4bb62d7ceb6080650, type: 3}
-  - {fileID: 21300000, guid: 67bd7cd1d10de4c42843ad5ce0468403, type: 3}
-  - {fileID: 21300000, guid: 40a0677126b4ecf489efaadebcd2a064, type: 3}
-  - {fileID: 21300000, guid: 056901fdc24cc8e4f9719ad6509dbcdf, type: 3}
-  - {fileID: 21300000, guid: 668e6c13d624ead4f9b5647fd0f45835, type: 3}
-  - {fileID: 21300000, guid: eac6c023f8e17e144990a2c38b2f55dd, type: 3}
+  - {fileID: 21300000, guid: abd19d1b7446b4a4bbeaae08247d2af3, type: 3}
+  - {fileID: 21300000, guid: 03dae11d19f7b3b4aad6fe25b94a7a43, type: 3}
+  - {fileID: 21300000, guid: c8175727fa90b804c8fddecee7eaa57d, type: 3}
+  - {fileID: 21300000, guid: 9bee4fe86037cc642ad28ea5831b067d, type: 3}
+  - {fileID: 21300000, guid: 8f7404504d748744dbb1c6e3495d52bb, type: 3}
+  - {fileID: 21300000, guid: fd07a77ab016bb24a871ff258a05e813, type: 3}
+  - {fileID: 21300000, guid: d39eed01aafb79c47803bd1255e15c13, type: 3}
+  - {fileID: 731233383, guid: f6a6aac6ba95a934085b0d0bb940be3a, type: 3}
+  - {fileID: 21300000, guid: 54e7d6a934f91a9429529f50ed08dff8, type: 3}
+  - {fileID: 21300000, guid: 2322475516dc2994491c44c95d2b2609, type: 3}
   Blots:
   - {fileID: 21300000, guid: 23918d637c405c04ca1e3c8738b0ba7f, type: 3}
   - {fileID: 21300000, guid: 8e5c9cc101a2bba49adc0252d837d17d, type: 3}

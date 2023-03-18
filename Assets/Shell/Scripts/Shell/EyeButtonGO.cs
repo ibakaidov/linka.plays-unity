@@ -21,8 +21,13 @@ namespace Shell {
 		private void OnMouseExit() {
 			seen = false;
 		}
+        private void Start()
+        {
+			gameObject.layer = LayerMask.NameToLayer("EyeButton");
 
-		private void Update() {
+        }
+
+        private void Update() {
 			switch ( ControlMaster.mode ) {
 				case ControlMode.Mouse:
 					Control(seen);

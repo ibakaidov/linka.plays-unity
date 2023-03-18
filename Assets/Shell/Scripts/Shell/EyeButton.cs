@@ -1,3 +1,4 @@
+using Tobii.Gaming;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
@@ -28,7 +29,10 @@ namespace Shell
 			seen = false;
 		}
 	
-
+		void Start()
+		{
+			gameObject.layer = LayerMask.NameToLayer("EyeButton");
+		}
 		private void Update() {
 
 

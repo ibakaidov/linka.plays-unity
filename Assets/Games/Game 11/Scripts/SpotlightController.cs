@@ -22,6 +22,7 @@ public class SpotlightController : MonoBehaviour
     private Vector3 defaultPosition;
     private Color standardBackground;
     private bool lastState;
+    public Counter counter;
 
     // Start is called before the first frame update
     void Start()
@@ -108,6 +109,7 @@ public class SpotlightController : MonoBehaviour
 
     void Move()
     {
+        counter.Increment();
          GetRandomBolt();
          GetRandomAnimal();
         float width = Screen.width;
