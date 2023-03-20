@@ -1,7 +1,6 @@
 name: Actions 😎
 
 on: push
-
 jobs:
   build:
     name: Build my project ✨
@@ -48,7 +47,7 @@ jobs:
           lfs: true
       - run: mkdir build
       - name: Download launcher
-      - uses: suisei-cn/actions-download-file@v1.3.0
+        uses: suisei-cn/actions-download-file@v1.3.0
         id: launcher.zip  # Recember to give an ID if you need the output
         name: Download the file
         with:
@@ -60,12 +59,10 @@ jobs:
           name: Build
           path: build/LINKa.plays
       - run: powershell -command "Expand-Archive -Force 'build/launcher.zip' 'build/LINKa.plays/'"
-      
       - name: Building the installer
         run: |
           "%programfiles(x86)%\Inno Setup 6\iscc.exe" "installer.iss"
         shell: cmd
-  
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
