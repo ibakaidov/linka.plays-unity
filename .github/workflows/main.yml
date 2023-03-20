@@ -34,7 +34,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Build
-          path: build/LINKa.plays
+          path: build/StandaloneWindows
   installer:
     name: Create installer
     runs-on: windows-2019
