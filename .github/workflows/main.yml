@@ -28,10 +28,46 @@ jobs:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
+          buildName: LINKa.plays
           targetPlatform: StandaloneWindows
 
       # Output
       - uses: actions/upload-artifact@v2
         with:
           name: Build
-          path: build
+          path: build/LINKa.plays
+  installer:
+    name: Create installer
+    runs-on: windows-2019
+    needs: [build]
+    steps:
+      # Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          lfs: true
+      - run: mkdir build
+      - name: Download launcher
+      - uses: suisei-cn/actions-download-file@v1.3.0
+        id: launcher.zip  # Recember to give an ID if you need the output
+        name: Download the file
+        with:
+          url: "https://linka.su/linkaplay/launcher.zip"
+          target: build/
+          auto-match: true
+      - uses: actions/download-artifact@v2
+        with:
+          name: Build
+          path: build/LINKa.plays
+      - run: powershell -command "Expand-Archive -Force 'build/launcher.zip' 'build/LINKa.plays/'"
+      
+      - name: Building the installer
+        run: |
+          "%programfiles(x86)%\Inno Setup 6\iscc.exe" "installer.iss"
+        shell: cmd
+  
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: Installer
+          path: build/linka.plays.setup.exe
