@@ -39,7 +39,7 @@ jobs:
   installer:
     name: Create installer
     runs-on: windows-2019
-    needs: [build]
+    needs: build
     steps:
       # Checkout
       - name: Checkout repository
