@@ -46,12 +46,7 @@ jobs:
         with:
           lfs: true
       - run: mkdir build
-      - name: Download launcher
-        uses: suisei-cn/actions-download-file@v1.3.0
-        with:
-          url: "https://linka.su/linkaplay/launcher.zip"
-          target: build/
-          auto-match: true
+      - run: curl.exe --output build/launcher.zip --url https://linka.su/linkaplay/launcher.zip
       - uses: actions/download-artifact@v2
         with:
           name: Build
