@@ -42,10 +42,8 @@ namespace Game3 {
 
 		public float SliderChanged {
 			set {
-				float r = Mathf.Pow(5, slider.value);
-				float ratio = startRatio * r;
-				eyeButton.timeScale = ratio;
-				ratioText.text = r.ToString();
+
+				eyeButton.timeScale = slider.value;
 			}
 		}
 

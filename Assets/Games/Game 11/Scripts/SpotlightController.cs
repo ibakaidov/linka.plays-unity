@@ -22,7 +22,9 @@ public class SpotlightController : MonoBehaviour
     private Vector3 defaultPosition;
     private Color standardBackground;
     private bool lastState;
-    public Counter counter;
+
+    int count = 0;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -66,15 +68,8 @@ public class SpotlightController : MonoBehaviour
         }
         lastState = state;
 
-        var point = TobiiAPI.GetGazePoint();
-        if (!point.IsValid)
-        {
-            lastHit = false;
-            return;
-        }
-
-
-        Vector2 guipoint = point.Screen;
+        
+        Vector2 guipoint = SightMaster.Point;
         bool gazeOnButton = RectTransformUtility.RectangleContainsScreenPoint(image.rectTransform, guipoint);
 
 
@@ -109,21 +104,22 @@ public class SpotlightController : MonoBehaviour
 
     void Move()
     {
-        counter.Increment();
-         GetRandomBolt();
+        count++;
+
+        GetRandomBolt();
          GetRandomAnimal();
         float width = Screen.width;
         float height = Screen.height;
         image.rectTransform.position = new Vector2(Random.Range(width*0.1f, width*0.75f), Random.Range(0.45f, height*0.85f)) ;
-        image.rectTransform.localScale *= 0.9F;
-        image.rectTransform.localScale *= 0.9F;
-        image.rectTransform.localScale *= 0.9F;
+        image.rectTransform.localScale *= 0.8F;
+        if(count%5 == 0) {
+            image.rectTransform.localScale = defaultScale;
+        }
         NewTaskSource.Play();
     }
 
     private void GetRandomAnimal()
     {
-
         currentAnimal = Animales[Random.Range(0, Animales.Length)];
     }
     private void GetRandomBolt() { currentBlot = Blots[Random.Range(0, Blots.Length)]; }

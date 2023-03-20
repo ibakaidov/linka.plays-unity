@@ -115,6 +115,7 @@ namespace Shell {
 		}
 
 		public void ToMainMenu() {
+			mAudioSource.Stop();
 			CloseGames();
 			exitButton.SetActive(false);
 			menuWindow.SetActive(true);

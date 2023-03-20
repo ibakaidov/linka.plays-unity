@@ -2389,7 +2389,7 @@ MonoBehaviour:
     title: "\u041F\u0447\u0435\u043B\u043A\u0438"
     type: 0
     sprite: {fileID: 21300000, guid: 84c03ec217973d546b793cbf67c81cad, type: 3}
-    instruction: {fileID: 8300000, guid: cc2eec9c7e9523241bd6640070707b0a, type: 3}
+    instruction: {fileID: 8300000, guid: 0b203ff7dbe006843a61c88171945bcc, type: 3}
     sceneId: -1
   - go: {fileID: 0}
     ui: {fileID: 0}
@@ -2417,7 +2417,7 @@ MonoBehaviour:
     title: "\u0410\u043A\u0432\u0430\u0440\u0438\u0443\u043C"
     type: 2
     sprite: {fileID: 21300000, guid: aaa92ddd8025a5c4bae6184313e774fc, type: 3}
-    instruction: {fileID: 8300000, guid: 0b203ff7dbe006843a61c88171945bcc, type: 3}
+    instruction: {fileID: 8300000, guid: 54c6d34f95f5dbe45a7aa8b2acb3c8ac, type: 3}
     sceneId: -1
   - go: {fileID: 96630621}
     ui: {fileID: 336167944}
@@ -2481,7 +2481,7 @@ AudioSource:
   m_GameObject: {fileID: 494892846}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -6707055415304434261, guid: 628976d0c7eb9a24e9f186aa9fbec215,
+  OutputAudioMixerGroup: {fileID: 674832171162986146, guid: 628976d0c7eb9a24e9f186aa9fbec215,
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1

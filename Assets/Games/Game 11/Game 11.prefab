@@ -267,7 +267,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8788654156124016632}
-  - component: {fileID: 4938168753844620659}
   - component: {fileID: 1891150299952628094}
   m_Layer: 5
   m_Name: Game 11
@@ -300,59 +299,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &4938168753844620659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8788654156124016633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4b1d770f45fa794e9e120c80c4a1982, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxCount: 5
-  count: 0
-  EndCount:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9146681246841396497}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 3272929080388348068}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 3847604349528314644}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!222 &1891150299952628094
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -372,7 +318,7 @@ PrefabInstance:
         type: 3}
       propertyPath: counter
       value: 
-      objectReference: {fileID: 4938168753844620659}
+      objectReference: {fileID: 0}
     - target: {fileID: 4519576128397340755, guid: 2aff7ce52a4202744bf7bbbfae365e33,
         type: 3}
       propertyPath: ChangeSource
@@ -525,36 +471,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2aff7ce52a4202744bf7bbbfae365e33, type: 3}
---- !u!114 &3847604349528314644 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4519576128397340755, guid: 2aff7ce52a4202744bf7bbbfae365e33,
-    type: 3}
-  m_PrefabInstance: {fileID: 855030055822648135}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b08483805aea6054695452257fb1118a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &7997311750688213172 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7287252887774915571, guid: 2aff7ce52a4202744bf7bbbfae365e33,
     type: 3}
   m_PrefabInstance: {fileID: 855030055822648135}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &9146681246841396497 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8444855612224978518, guid: 2aff7ce52a4202744bf7bbbfae365e33,
-    type: 3}
-  m_PrefabInstance: {fileID: 855030055822648135}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &5801993513065977544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -694,12 +616,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7aee1fd74f3beaf41bf3faf986ac38fe, type: 3}
---- !u!1 &3272929080388348068 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9074495913853779564, guid: 7aee1fd74f3beaf41bf3faf986ac38fe,
-    type: 3}
-  m_PrefabInstance: {fileID: 5801993513065977544}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &8060131495301220631 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4566514506862501855, guid: 7aee1fd74f3beaf41bf3faf986ac38fe,
