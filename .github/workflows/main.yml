@@ -48,7 +48,6 @@ jobs:
       - run: mkdir build
       - name: Download launcher
         uses: suisei-cn/actions-download-file@v1.3.0
-        id: launcher.zip  # Recember to give an ID if you need the output
         with:
           url: "https://linka.su/linkaplay/launcher.zip"
           target: build/
