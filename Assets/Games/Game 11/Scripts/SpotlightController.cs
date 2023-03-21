@@ -110,10 +110,11 @@ public class SpotlightController : MonoBehaviour
          GetRandomAnimal();
         float width = Screen.width;
         float height = Screen.height;
-        image.rectTransform.position = new Vector2(Random.Range(width*0.1f, width*0.75f), Random.Range(0.45f, height*0.85f)) ;
+        image.rectTransform.position = new Vector2(Random.Range(width*0.25f, width*0.75f), Random.Range(height*0.15f, height*0.85f)) ;
         image.rectTransform.localScale *= 0.8F;
         if(count%5 == 0) {
             image.rectTransform.localScale = defaultScale;
+            image.rectTransform.position = defaultPosition;
         }
         NewTaskSource.Play();
     }
