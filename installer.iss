@@ -805,4 +805,3 @@ begin
   Result := True;
 end;
 
-#endif
