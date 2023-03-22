@@ -2465,7 +2465,7 @@ MonoBehaviour:
     ui: {fileID: 0}
     title: "\u0421\u0438\u0437\u0438\u0444"
     type: 3
-    sprite: {fileID: 1132194570, guid: 34f7dfbb7aae41349baa1d0a68c1b55b, type: 3}
+    sprite: {fileID: 21300000, guid: 88361b6c344e9284d8781e0024765312, type: 3}
     instruction: {fileID: 0}
     sceneId: 1
   Menu: {fileID: 182305484}
