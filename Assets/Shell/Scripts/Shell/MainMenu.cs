@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Analytics;
 using UnityEngine.SceneManagement;
 
 namespace Shell {
@@ -91,6 +92,16 @@ namespace Shell {
 		
         public void OpenGame(GameWindow window)
         {
+
+#if ENABLE_CLOUD_SERVICES_ANALYTICS
+			int id = Array.IndexOf(gameWindows, window);
+			Analytics.CustomEvent("miniGameStart", new Dictionary< string, object>()
+			{
+				{"gameId", id }
+			} );
+#endif
+
+
 			if (window.SceneId > 0)
 			{
 				OpenGameFromScene(window.SceneId);
