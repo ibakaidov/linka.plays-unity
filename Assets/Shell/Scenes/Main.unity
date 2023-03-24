@@ -618,27 +618,27 @@ PrefabInstance:
     - target: {fileID: 68346006764372528, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 68346006764372528, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 68346006764372528, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 700
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 68346006764372528, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 350
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 68346006764372528, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -120
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 68346006835657285, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
@@ -878,17 +878,17 @@ PrefabInstance:
     - target: {fileID: 68346007838784015, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 68346007838784015, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 68346007838784015, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 700
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 68346007838784015, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
@@ -898,12 +898,12 @@ PrefabInstance:
     - target: {fileID: 68346007838784015, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 350
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 68346007838784015, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -70
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4020949941611375990, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
@@ -8485,7 +8485,7 @@ GameObject:
   - component: {fileID: 1066744755}
   - component: {fileID: 1066744754}
   m_Layer: 5
-  m_Name: Button
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8510,7 +8510,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 50, y: 50}
-  m_SizeDelta: {x: 300, y: 60}
+  m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1066744754
 MonoBehaviour:

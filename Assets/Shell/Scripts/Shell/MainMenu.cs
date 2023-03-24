@@ -17,8 +17,13 @@ namespace Shell {
 		public GameObject UI {
 			get => ui;
 		}
+        public bool IsActive { get
+			{
+				return (ui.activeInHierarchy);
+			}
+		}
 
-		public void SetActive(bool active) {
+        public void SetActive(bool active) {
 			if (go != null)
 			{
 				go?.SetActive(active);	
@@ -135,9 +140,14 @@ namespace Shell {
 
 		private void Update() {
 			if ( Input.GetKeyDown(KeyCode.Escape) ) {
-				ToMainMenu();
-			}
-		}
+				if (menuWindow.IsActive)
+				{
+					Application.Quit();
+				}
+                ToMainMenu();
+
+            }
+        }
 
 		public void OpenGameFromScene(int sceneId)
 		{
