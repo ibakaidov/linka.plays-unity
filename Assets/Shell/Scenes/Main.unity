@@ -618,12 +618,12 @@ PrefabInstance:
     - target: {fileID: 68346006764372528, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 68346006764372528, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 68346006764372528, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
@@ -638,7 +638,7 @@ PrefabInstance:
     - target: {fileID: 68346006764372528, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -120
       objectReference: {fileID: 0}
     - target: {fileID: 68346006835657285, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
@@ -878,12 +878,12 @@ PrefabInstance:
     - target: {fileID: 68346007838784015, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 68346007838784015, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 68346007838784015, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
@@ -903,7 +903,7 @@ PrefabInstance:
     - target: {fileID: 68346007838784015, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -70
       objectReference: {fileID: 0}
     - target: {fileID: 4020949941611375990, guid: 86eb85dc00b692e4e96c419017d8c60a,
         type: 3}
@@ -2377,13 +2377,6 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: ac3ae49a5527ef74eb49992df7775f0d, type: 3}
     instruction: {fileID: 8300000, guid: c591cfa030b7fb044bfc8c402827c383, type: 3}
     sceneId: -1
-  - go: {fileID: 1639827444}
-    ui: {fileID: 2119687710}
-    title: "\u0412\u0441\u043F\u044B\u0448\u043A\u0430"
-    type: 0
-    sprite: {fileID: 21300000, guid: 23918d637c405c04ca1e3c8738b0ba7f, type: 3}
-    instruction: {fileID: 8300000, guid: 7f8b5ab179060154f93acd9668371bad, type: 3}
-    sceneId: -1
   - go: {fileID: 458269979}
     ui: {fileID: 204817814}
     title: "\u041F\u0447\u0435\u043B\u043A\u0438"
@@ -2398,26 +2391,12 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 5f172c8a0e039c0448ecb5d155ddab5b, type: 3}
     instruction: {fileID: 0}
     sceneId: 2
-  - go: {fileID: 188815180}
-    ui: {fileID: 778445305}
-    title: "\u041A\u043E\u043C\u0430\u0440\u0438\u043A\u0438"
-    type: 1
-    sprite: {fileID: 21300000, guid: 9b3de5a270dfa18488b7636275e62700, type: 3}
-    instruction: {fileID: 8300000, guid: e87526ab0c14c4146812a32d61e234c8, type: 3}
-    sceneId: -1
-  - go: {fileID: 259660423}
-    ui: {fileID: 1981285804068097003}
-    title: "\u0426\u0432\u0435\u0442\u043E\u0447\u043A\u0438"
-    type: 1
-    sprite: {fileID: 21300000, guid: ec600f3f729fa854599e4d842d99a64c, type: 3}
-    instruction: {fileID: 8300000, guid: cd7d92e49f9da554dadafe571c5d6d04, type: 3}
-    sceneId: -1
-  - go: {fileID: 1729035963}
-    ui: {fileID: 366467041}
-    title: "\u0410\u043A\u0432\u0430\u0440\u0438\u0443\u043C"
-    type: 2
-    sprite: {fileID: 21300000, guid: aaa92ddd8025a5c4bae6184313e774fc, type: 3}
-    instruction: {fileID: 8300000, guid: 54c6d34f95f5dbe45a7aa8b2acb3c8ac, type: 3}
+  - go: {fileID: 1639827444}
+    ui: {fileID: 2119687710}
+    title: "\u0412\u0441\u043F\u044B\u0448\u043A\u0430"
+    type: 0
+    sprite: {fileID: 21300000, guid: 23918d637c405c04ca1e3c8738b0ba7f, type: 3}
+    instruction: {fileID: 8300000, guid: 7f8b5ab179060154f93acd9668371bad, type: 3}
     sceneId: -1
   - go: {fileID: 96630621}
     ui: {fileID: 336167944}
@@ -2426,12 +2405,19 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: a0fc324005ab13744af8789011749a7a, type: 3}
     instruction: {fileID: 8300000, guid: 864fb0bbeedbb4945b42dffff53ec4b5, type: 3}
     sceneId: -1
-  - go: {fileID: 2120511599}
-    ui: {fileID: 542369136}
-    title: "\u043F\u043E\u0434\u0441\u0442\u0430\u0432\u044C"
+  - go: {fileID: 259660423}
+    ui: {fileID: 1981285804068097003}
+    title: "\u0426\u0432\u0435\u0442\u043E\u0447\u043A\u0438"
+    type: 1
+    sprite: {fileID: 21300000, guid: ec600f3f729fa854599e4d842d99a64c, type: 3}
+    instruction: {fileID: 8300000, guid: cd7d92e49f9da554dadafe571c5d6d04, type: 3}
+    sceneId: -1
+  - go: {fileID: 1678281488}
+    ui: {fileID: 377333319}
+    title: "\u0437\u0432\u0435\u0440\u0438"
     type: 2
-    sprite: {fileID: 21300000, guid: 3871ffe3e45499644ad6974c83160d73, type: 3}
-    instruction: {fileID: 8300000, guid: 73e85dc37964f1f4b9d04f6bc7aedfa1, type: 3}
+    sprite: {fileID: 2072909382, guid: f6a6aac6ba95a934085b0d0bb940be3a, type: 3}
+    instruction: {fileID: 8300000, guid: 1429dd3ffdd58654faf138f079c20efd, type: 3}
     sceneId: -1
   - go: {fileID: 1162772309}
     ui: {fileID: 1214794677}
@@ -2440,12 +2426,19 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 5b1f357f129b9a543989fd7c2b0677ad, type: 3}
     instruction: {fileID: 8300000, guid: 6f1805c881f85a24f9cec3b0c19257e9, type: 3}
     sceneId: -1
-  - go: {fileID: 1678281488}
-    ui: {fileID: 377333319}
-    title: "\u0437\u0432\u0435\u0440\u0438"
+  - go: {fileID: 1729035963}
+    ui: {fileID: 366467041}
+    title: "\u0410\u043A\u0432\u0430\u0440\u0438\u0443\u043C"
     type: 2
-    sprite: {fileID: 2072909382, guid: f6a6aac6ba95a934085b0d0bb940be3a, type: 3}
-    instruction: {fileID: 8300000, guid: 1429dd3ffdd58654faf138f079c20efd, type: 3}
+    sprite: {fileID: 21300000, guid: aaa92ddd8025a5c4bae6184313e774fc, type: 3}
+    instruction: {fileID: 8300000, guid: 54c6d34f95f5dbe45a7aa8b2acb3c8ac, type: 3}
+    sceneId: -1
+  - go: {fileID: 2120511599}
+    ui: {fileID: 542369136}
+    title: "\u043F\u043E\u0434\u0441\u0442\u0430\u0432\u044C"
+    type: 2
+    sprite: {fileID: 21300000, guid: 3871ffe3e45499644ad6974c83160d73, type: 3}
+    instruction: {fileID: 8300000, guid: 73e85dc37964f1f4b9d04f6bc7aedfa1, type: 3}
     sceneId: -1
   - go: {fileID: 1829345489}
     ui: {fileID: 3439287801360114651}
@@ -2468,6 +2461,13 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 88361b6c344e9284d8781e0024765312, type: 3}
     instruction: {fileID: 0}
     sceneId: 1
+  - go: {fileID: 188815180}
+    ui: {fileID: 778445305}
+    title: "\u041A\u043E\u043C\u0430\u0440\u0438\u043A\u0438"
+    type: 1
+    sprite: {fileID: 21300000, guid: 9b3de5a270dfa18488b7636275e62700, type: 3}
+    instruction: {fileID: 8300000, guid: e87526ab0c14c4146812a32d61e234c8, type: 3}
+    sceneId: -1
   Menu: {fileID: 182305484}
   GameButton: {fileID: 4840579871916301218, guid: 5ebc262ed7edfcb4fbe05d4a76d25b09,
     type: 3}
