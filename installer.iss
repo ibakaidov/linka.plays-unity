@@ -643,7 +643,7 @@ end;
 
 
 #define MyAppName "LINKa. играй"
-#define MyAppVersion "1.0"
+#define MyAppVersion "$version"
 #define MyAppPublisher "LINKa"
 #define MyAppURL "https://linka.su"
 #define MyAppExeName "LINKa.plays-launcher.exe"
