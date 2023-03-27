@@ -54,6 +54,7 @@ jobs:
       - run: powershell -command "Expand-Archive -Force 'build/launcher.zip' 'build/LINKa.plays/'"
       - name: Building the installer
         run: |
+          node version.js
           "%programfiles(x86)%\Inno Setup 6\iscc.exe" "installer.iss"
         shell: cmd
       - name: Upload artifacts
