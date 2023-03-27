@@ -117,7 +117,7 @@ MonoBehaviour:
   onFail:
     m_PersistentCalls:
       m_Calls: []
-  timeScale: 0.5
+  timeScale: 1.25
 --- !u!1 &8018279999968222140
 GameObject:
   m_ObjectHideFlags: 0
