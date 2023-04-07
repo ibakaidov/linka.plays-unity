@@ -680,8 +680,8 @@ Name: "russian"; MessagesFile: "compiler:Languages\Russian.isl"
 Source: "netcorecheck.exe"; Flags: dontcopy noencryption
 Source: "netcorecheck_x64.exe"; Flags: dontcopy noencryption
 #endif
-Source: ".\build\linka.plays\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: ".\build\linka.plays\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: ".\build\LINKa.plays\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: ".\build\LINKa.plays\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 
 [Tasks]
