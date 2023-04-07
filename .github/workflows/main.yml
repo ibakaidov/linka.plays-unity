@@ -51,7 +51,8 @@ jobs:
         with:
           name: Build
           path: build/LINKa.plays
-      - run: powershell -command "Expand-Archive -Force 'build/launcher.zip' 'build/LINKa.plays/'"
+      - run: powershell -command "Expand-Archive -Force 'build/launcher.zip' 'build/'"
+      - run: cp 'build/launcher/*' 'build/LINKa.plays/'
       - run: dir 'build/LINKa.plays/'
       - name: Building the installer
         run: |
