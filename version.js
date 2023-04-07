@@ -1,7 +1,5 @@
 const fs = require('fs')
 
-
- 
 const content = fs.readFileSync(".\\ProjectSettings\\ProjectSettings.asset", 'utf-8')
 
 const version = content.match(/bundleVersion:.(.*)/)[1];
