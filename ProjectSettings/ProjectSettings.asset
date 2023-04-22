@@ -15,7 +15,7 @@ PlayerSettings:
   companyName: linka
   productName: LINKa.plays
   defaultCursor: {fileID: 2800000, guid: 0d53d9694b869fe49a91c33bfc13fc72, type: 3}
-  cursorHotspot: {x: 0, y: 0}
+  cursorHotspot: {x: 256, y: 256}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
