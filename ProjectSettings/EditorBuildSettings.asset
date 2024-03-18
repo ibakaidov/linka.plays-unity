@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Games/Ducks/Ducks.unity
     guid: e903dcb9e926d4f708f8942f80e48952
+  - enabled: 1
+    path: Assets/Games/Fishes/Fishes.unity
+    guid: e36a1ae513c6744129dd65f2d4f23bf3
   m_configObjects: {}
