@@ -60,17 +60,16 @@ public class Cursor : MonoBehaviour
         image.color = initColor;
         var screen = Input.mousePosition;
 
-        float mouseDist = Vector2.Distance(lastMousePosition, screen);
-        lastMousePosition = screen;
+        // float mouseDist = Vector2.Distance(lastMousePosition, screen);
+        // lastMousePosition = screen;
 #if !UNITY_EDITOR
-        if (TobiiAPI.IsConnected && mouseDist<0.1f)
+        if (TobiiAPI.IsConnected )
         {
             var point = TobiiAPI.GetGazePoint();
-            if (!point.IsValid)
+            if (point.IsValid)
             {
-                return;
+                screen = point.Screen;
             }
-            screen = point.Screen;
         }
 #endif
         rectTransform
