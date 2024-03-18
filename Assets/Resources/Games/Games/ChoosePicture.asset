@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e3b79e375e59421cb94733e3695aa2f, type: 3}
+  m_Name: ChoosePicture
+  m_EditorClassIdentifier: 
+  Name: "\u0412\u044B\u0431\u0435\u0440\u0438 \u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0443"
+  Description: 
+  Order: 0
+  Icon: {fileID: 21300000, guid: 82a7ae1ba447848fb8366034e81b39d4, type: 3}
+  Category: {fileID: 11400000, guid: 100be6369dbe744029d5b262533b2f3f, type: 2}
+  GameSceneId: ChoosePicture

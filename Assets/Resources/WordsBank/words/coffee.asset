@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dbea75305458a342bff5b3bb415af81, type: 3}
+  m_Name: coffee
+  m_EditorClassIdentifier: 
+  word: "\u043A\u043E\u0444\u0435"
+  emoji: "\u2615\uFE0F"
+  clip: {fileID: 8300000, guid: 6bb2043caaf9b4769a40ac2e4173cab9, type: 3}
+  category: drink

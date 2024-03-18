@@ -6,12 +6,48 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Shell/Scenes/Main.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Menu/Menu.unity
+    guid: 9ac7a246ef4b441169f40639ecb5e381
   - enabled: 1
-    path: Assets/Games/Game 14/Scenes/Sisyphus.unity
-    guid: 5ad24408f39c8fe4384d326e034a089a
+    path: Assets/Games/ChoosePicture/ChoosePicture.unity
+    guid: 340cd9b56e8db4397a085e99ba3f8adc
   - enabled: 1
-    path: Assets/Games/Game 2/Focus.unity
-    guid: 7b77edf9ced00064ea645e64e2f45181
+    path: Assets/Games/Flowers/Flowers.unity
+    guid: 1a8db1147de894bdcab7cf8b4cbd8320
+  - enabled: 1
+    path: Assets/Games/Labyrinth/Labyrinth.unity
+    guid: 8cc596faf292646d9938031d204e07d9
+  - enabled: 1
+    path: Assets/Games/Butterfly/Butterfly.unity
+    guid: 08622db2242cb4b2db647a2c760fd580
+  - enabled: 1
+    path: Assets/Games/TypeWord/TypeWord.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Games/TableTennis/TableTennis.unity
+    guid: 8df2ded26282c44438f7fb8a178123b9
+  - enabled: 1
+    path: Assets/Games/EatOrNotEat/EatOrNotEat.unity
+    guid: bcfa07570c7f64798964f19b0eadf518
+  - enabled: 1
+    path: Assets/Games/Frog/Frog.unity
+    guid: 1e6d976c23f904232aa32a04d4fb973c
+  - enabled: 1
+    path: Assets/Games/Pyramid/Pyramid.unity
+    guid: 2a8a54286739943318e88cfec4399d3f
+  - enabled: 1
+    path: Assets/Games/Hide-and-seek/Hide-and-seek.unity
+    guid: bd2c5eb9d7d114efebe858427e2d7fa8
+  - enabled: 1
+    path: Assets/Games/Math/Math.unity
+    guid: 00d37fe3c1f954aab9605ba6bc6a175d
+  - enabled: 1
+    path: Assets/Games/Bubbles/Bubbles.unity
+    guid: 7b92829a6d4ce4778bb58c077b3ab204
+  - enabled: 1
+    path: Assets/Games/CountItems/CountItems.unity
+    guid: 0351df07499d74a52b90f25952bc9344
+  - enabled: 1
+    path: Assets/Games/Ducks/Ducks.unity
+    guid: e903dcb9e926d4f708f8942f80e48952
   m_configObjects: {}

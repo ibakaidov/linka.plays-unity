@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e3b79e375e59421cb94733e3695aa2f, type: 3}
+  m_Name: CountItems
+  m_EditorClassIdentifier: 
+  Name: "\u0421\u0447\u0451\u0442"
+  Description: 
+  Order: 0
+  Icon: {fileID: 21300000, guid: 6b012d64da4614563a4a0d9ee510a245, type: 3}
+  Category: {fileID: 11400000, guid: ed074559f93684eb0bc1bcf3c164a5f7, type: 2}
+  GameSceneId: CountItems

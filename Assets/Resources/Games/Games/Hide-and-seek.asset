@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e3b79e375e59421cb94733e3695aa2f, type: 3}
+  m_Name: Hide-and-seek
+  m_EditorClassIdentifier: 
+  Name: "\u041F\u0440\u044F\u0442\u043A\u0438"
+  Description: 
+  Order: 5
+  Icon: {fileID: -1481933898, guid: a94b079490a6440788c6b8d8a0f66ac4, type: 3}
+  Category: {fileID: 11400000, guid: a1f00984167a04e8e9a4c1fa94b09767, type: 2}
+  GameSceneId: Hide-and-seek
