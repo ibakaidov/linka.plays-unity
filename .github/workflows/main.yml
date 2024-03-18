@@ -64,30 +64,30 @@ jobs:
         with:
           name: Installer
           path: build/linka.plays.setup.exe
-  deploy:
-    name: Deploy
-    runs-on: ubuntu-20.04
-    needs: installer
-    steps:
-      # Checkout
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          lfs: true
-      - run: mkdir build
-      - run: mkdir build/linka.plays
-      - run: node version.js
-      - uses: actions/download-artifact@v2
-        with:
-          name: Installer
-          path: build/
-      - run: set -eu
-      - run: mkdir "$HOME/.ssh"
-      - run: echo "${{ secrets.SSH_KEY }}" > "$HOME/.ssh/key"
-      - run: chmod 600 "$HOME/.ssh/key"
-      - name: Deploy to server
-        env:
-          SSH_KEY: ${{ secrets.SSH_KEY }}      
-        run: |
-          cat build/linka.plays.setup.exe | ssh -i ~/.ssh/key -o StrictHostKeyChecking=no aacidov@linka.su dd of=/var/www/wordpress/linkaplay/linkaplaysetup.exe
-          cat ./build/linka.plays/version.json | ssh -i ~/.ssh/key -o StrictHostKeyChecking=no aacidov@linka.su dd of=/var/www/wordpress/linkaplay/version.json
+  # deploy:
+  #   name: Deploy
+  #   runs-on: ubuntu-20.04
+  #   needs: installer
+  #   steps:
+  #     # Checkout
+  #     - name: Checkout repository
+  #       uses: actions/checkout@v2
+  #       with:
+  #         lfs: true
+  #     - run: mkdir build
+  #     - run: mkdir build/linka.plays
+  #     - run: node version.js
+  #     - uses: actions/download-artifact@v2
+  #       with:
+  #         name: Installer
+  #         path: build/
+  #     - run: set -eu
+  #     - run: mkdir "$HOME/.ssh"
+  #     - run: echo "${{ secrets.SSH_KEY }}" > "$HOME/.ssh/key"
+  #     - run: chmod 600 "$HOME/.ssh/key"
+  #     - name: Deploy to server
+  #       env:
+  #         SSH_KEY: ${{ secrets.SSH_KEY }}      
+  #       run: |
+  #         cat build/linka.plays.setup.exe | ssh -i ~/.ssh/key -o StrictHostKeyChecking=no aacidov@linka.su dd of=/var/www/wordpress/linkaplay/linkaplaysetup.exe
+  #         cat ./build/linka.plays/version.json | ssh -i ~/.ssh/key -o StrictHostKeyChecking=no aacidov@linka.su dd of=/var/www/wordpress/linkaplay/version.json
