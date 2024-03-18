@@ -32,6 +32,7 @@ public class GazeAware : MonoBehaviour
     private void Start()
     {
         uuid = Guid.NewGuid().ToString();
+        var self = gameObject;
         OnClick.AddListener(() =>
         {
             Button b = GetComponent<Button>();
@@ -42,12 +43,12 @@ public class GazeAware : MonoBehaviour
                     onClick
                     .Invoke();
                 } else {
-                    if(EventSystem.current.currentSelectedGameObject == gameObject)
+                    if(EventSystem.current.currentSelectedGameObject == self)
                     {
                         b.onClick.Invoke();
                     }
                     else {
-                        EventSystem.current.SetSelectedGameObject(gameObject);
+                        EventSystem.current.SetSelectedGameObject(self);
                     }
                 }
             }
